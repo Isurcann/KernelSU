@@ -104,7 +104,7 @@ If you genuinely need to grant root permissions to ADB (e.g., as a developer), i
 
 ## Non-Root Profile
 
-### Umount Modules
+### Umount Module
 
 KernelSU provides a systemless mechanism for modifying system partitions, achieved through overlayfs mounting. However, some apps may be sensitive to such behavior. Thus, we can unload modules mounted on these apps by setting the "umount modules" option.
 
